@@ -8,7 +8,7 @@ Sıfırdan veri bilimine başlamak isteyenler için kapsamlı bir öğrenme yolu
 |--------|--------|---------|--------------|------------|
 | **1** | `01_numpy_pandas` | NumPy & Pandas temelleri, veri manipülasyonu | 3-5 gün | Python temelleri |
 | **2** | `02_data_analysis_for_beginners` | Veri görselleştirme, EDA, SciPy, Scikit-learn | 5-7 gün | Seviye 1 tamamlanmış olmalı |
-| **3** | `03_machine_learning` | ML algoritmaları, preprocessing, model değerlendirme | 7-14 gün | Seviye 2 tamamlanmış olmalı |
+| **3** | `03_machine_learning` | ML algoritmaları, preprocessing, model değerlendirme, feature engineering, hyperparameter tuning | 8-12 hafta | Seviye 2 tamamlanmış olmalı |
 
 ## 🚀 Başlangıç
 
@@ -66,21 +66,58 @@ jupyter notebook
 - ✅ Eksik verileri doldurma yöntemlerini bilme
 - ✅ Scikit-learn ile veri ön işleme yapabilme
 
-### 📙 Seviye 3: Makine Öğrenmesi
+### 📙 Seviye 3: Makine Öğrenmesi (Detaylı)
 
 **Klasör:** `03_machine_learning/`
 
-- Karar Ağaçları (Decision Trees)
+**Sınıflandırma Algoritmaları:**
+- Logistic Regression
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
+- Decision Trees
 - Naive Bayes
-- Kütüphane kullanmadan preprocessing (from scratch)
-- Model değerlendirme metrikleri
-- Gerçek projeler (hava kirliliği, öğrenci başarısı, hava durumu)
+
+**Regresyon Algoritmaları:**
+- Linear Regression (Ridge, Lasso, Elastic Net)
+- Polynomial Regression
+
+**Ensemble Methods:**
+- Random Forest
+- Gradient Boosting (XGBoost, LightGBM)
+- Voting, Stacking, Blending
+
+**Unsupervised Learning:**
+- K-Means Clustering
+- Hierarchical Clustering
+- DBSCAN
+
+**Model Değerlendirme:**
+- Classification & Regression metrikleri
+- Cross-validation teknikleri
+- ROC-AUC, Confusion Matrix
+- Learning curves
+
+**Feature Engineering:**
+- Feature selection
+- Feature scaling
+- Encoding techniques
+- Feature creation
+
+**Model Optimizasyonu:**
+- Hyperparameter tuning (Grid Search, Random Search, Bayesian Optimization)
+- Optuna, Hyperopt
+
+**Gerçek Projeler:**
+- ML Article Project (hava kirliliği, öğrenci başarısı, hava durumu)
+- Preprocessing from scratch
 
 **Öğrenme Hedefleri:**
-- ✅ ML algoritmalarını anlama ve uygulama
-- ✅ Model performansını değerlendirme
-- ✅ Veri ön işleme tekniklerini derinlemesine anlama
-- ✅ Gerçek veri setleri ile proje yapabilme
+- ✅ Temel ve ileri seviye ML algoritmalarını anlama ve uygulama
+- ✅ Model performansını detaylı bir şekilde değerlendirme
+- ✅ Feature engineering tekniklerini uygulama
+- ✅ Hyperparameter tuning yapabilme
+- ✅ Ensemble methods kullanabilme
+- ✅ Gerçek veri setleri ile kapsamlı projeler yapabilme
 
 ## 📊 Proje Örnekleri
 

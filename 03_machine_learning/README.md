@@ -1,149 +1,267 @@
-# 📙 Seviye 3: Makine Öğrenmesi
+# 📙 Seviye 3: Makine Öğrenmesi (Detaylı)
 
-Bu seviye, makine öğrenmesi algoritmalarını, model değerlendirme tekniklerini ve gerçek projeleri kapsar.
+Bu seviye, makine öğrenmesi algoritmalarını, model değerlendirme tekniklerini, feature engineering'i ve gerçek projeleri kapsamlı bir şekilde kapsar.
 
 ## 🎯 Öğrenme Hedefleri
 
 Bu seviyeyi tamamladıktan sonra:
-- ✅ Karar ağaçları ve Naive Bayes gibi algoritmaları anlayabilirsiniz
-- ✅ Veri ön işleme tekniklerini derinlemesine uygulayabilirsiniz
-- ✅ Model performansını değerlendirebilirsiniz
-- ✅ Gerçek veri setleri ile proje yapabilirsiniz
-- ✅ Kütüphane kullanmadan preprocessing yapabilirsiniz (from scratch)
+- ✅ Temel ve ileri seviye ML algoritmalarını anlayabilirsiniz
+- ✅ Veri ön işleme ve feature engineering tekniklerini uygulayabilirsiniz
+- ✅ Model performansını detaylı bir şekilde değerlendirebilirsiniz
+- ✅ Hyperparameter tuning yapabilirsiniz
+- ✅ Ensemble methods kullanabilirsiniz
+- ✅ Gerçek veri setleri ile kapsamlı projeler yapabilirsiniz
+- ✅ Kütüphane kullanmadan preprocessing ve algoritmaları from scratch implement edebilirsiniz
 
 ## 📚 İçerik Yapısı
 
-### 🌳 Decision Tree
+### 🔵 Sınıflandırma Algoritmaları
 
-Karar ağaçları algoritması:
+#### 📊 Logistic Regression
+- Binary ve multiclass classification
+- Sigmoid fonksiyonu ve decision boundary
+- From scratch implementasyon
+- **Klasör:** `logistic_regression/`
 
-- `heartdisease.ipynb` - Kalp hastalığı veri seti ile karar ağacı uygulaması
+#### 🎯 Support Vector Machine (SVM)
+- Maximum margin classifier
+- Kernel tricks (Linear, Polynomial, RBF)
+- Soft margin ve C parametresi
+- **Klasör:** `svm/`
 
-### 📊 Naive Bayes
+#### 🔍 K-Nearest Neighbors (KNN)
+- Lazy learning algoritması
+- Distance metrics (Euclidean, Manhattan)
+- K değeri seçimi
+- Classification ve Regression
+- **Klasör:** `knn/`
 
-Naive Bayes algoritması:
+#### 🌳 Decision Tree
+- Karar ağaçları algoritması
+- Gini impurity ve Entropy
+- Pruning teknikleri
+- **Klasör:** `decision_tree/`
 
-- `heartdisease-nb.ipynb` - Kalp hastalığı veri seti ile Naive Bayes uygulaması
+#### 📊 Naive Bayes
+- Bayes teoremi
+- Gaussian, Multinomial, Bernoulli Naive Bayes
+- **Klasör:** `naive_bayes/`
 
-### 🔧 Preprocessing From Scratch
+### 🟢 Regresyon Algoritmaları
 
-Kütüphane kullanmadan veri ön işleme (from scratch):
+#### 📈 Linear Regression
+- Simple ve Multiple Linear Regression
+- Polynomial Regression
+- Ridge, Lasso, Elastic Net (Regularization)
+- From scratch implementasyon
+- **Klasör:** `linear_regression/`
 
-#### Data Encoding
-- `data_encoding_part1.py` - Veri kodlama
-- `data_encoding_part1_PseudoCode.docx` - Pseudo kod
-- `p1_data.txt` - Örnek veri
+### 🟡 Ensemble Methods
 
-#### Discretization
-- `equal_width.py` - Eşit genişlikte discretization
-- `input_data.txt`, `output_data.txt` - Giriş/çıkış verileri
+#### 🌲 Random Forest
+- Bagging (Bootstrap Aggregating)
+- Feature importance
+- Out-of-bag scoring
+- **Klasör:** `random_forest/`
 
-#### k-Means
-- `k_mean.py` - k-Means kümeleme algoritması
-- `data.txt`, `output.txt`, `results.txt` - Veri ve sonuçlar
+#### 🚀 Gradient Boosting
+- Boosting algoritması
+- XGBoost, LightGBM, CatBoost
+- Learning rate ve early stopping
+- **Klasör:** `gradient_boosting/`
 
-#### Missing Value
-- `missing_value_in_same_class.py` - Aynı sınıftaki eksik değerleri doldurma
-- `matrix.py` - Matris işlemleri
-- `missing_value_pseudoCode.docx` - Pseudo kod
-- `p2_data.txt`, `p2_output.txt` - Veri ve çıkış
+#### 🎭 Ensemble Methods
+- Voting Classifier
+- Stacking (Stacked Generalization)
+- Blending
+- **Klasör:** `ensemble_methods/`
 
-#### Oversampling
-- `oversampling.py` - Oversampling tekniği
-- `data.txt`, `output.txt`, `results.txt` - Veri ve sonuçlar
+### 🟣 Unsupervised Learning
 
-### 🚀 ML Article Project
+#### 🎯 Clustering
+- K-Means Clustering
+- Hierarchical Clustering
+- DBSCAN (Density-based)
+- Clustering evaluation metrics
+- **Klasör:** `clustering/`
 
+### 🔧 Veri Ön İşleme & Feature Engineering
+
+#### 🔧 Preprocessing From Scratch
+Kütüphane kullanmadan veri ön işleme:
+- Data Encoding
+- Discretization
+- Missing Value Handling
+- Oversampling
+- k-Means (from scratch)
+- **Klasör:** `preprocessing_from_scratch/`
+
+#### 🔧 Feature Engineering
+- Feature Selection (Univariate, RFE, Feature Importance)
+- Feature Scaling (Standardization, Normalization)
+- Feature Creation (Polynomial, Interaction)
+- Encoding Techniques (One-Hot, Label, Target)
+- **Klasör:** `feature_engineering/`
+
+### 📊 Model Değerlendirme
+
+#### 📊 Model Evaluation
+- **Classification Metrics:** Accuracy, Precision, Recall, F1-Score, Confusion Matrix, ROC-AUC
+- **Regression Metrics:** MAE, MSE, RMSE, R²
+- **Cross-Validation:** K-Fold, Stratified K-Fold, Leave-One-Out
+- **Learning Curves:** Overfitting/Underfitting detection
+- **Klasör:** `model_evaluation/`
+
+### ⚙️ Model Optimizasyonu
+
+#### ⚙️ Hyperparameter Tuning
+- Grid Search CV
+- Random Search CV
+- Bayesian Optimization
+- Optuna, Hyperopt
+- **Klasör:** `hyperparameter_tuning/`
+
+### 🚀 Gerçek Projeler
+
+#### 🚀 ML Article Project
 Kapsamlı makine öğrenmesi projesi:
+- **Veri Setleri:** Hava Kirliliği, Öğrenci Başarısı, Hava Durumu
+- **Eksik Veri Doldurma:** Mean, Mode, KNN, Multiple Imputation
+- **Dengesiz Veri:** SMOTE
+- **Algoritmalar:** KNN, Naive Bayes, Decision Tree
+- **Performans Metrikleri:** MAE, MSE, Accuracy, Precision, Recall, F1-Score
+- **Klasör:** `ml_article_project/`
 
-#### Veri Setleri
-- **Hava Kirliliği** (`updated_pollution_dataset.csv`)
-- **Öğrenci Akademik Başarıları** (`student_lifestyle_dataset.csv`)
-- **Hava Koşulları** (`weather_forecast_data.csv`)
+## 🚀 Önerilen Öğrenme Yolu
 
-#### Kullanılan Yöntemler
+### 1️⃣ Temel Algoritmalar (1-2 hafta)
+1. **Linear Regression** (`linear_regression/`)
+2. **Logistic Regression** (`logistic_regression/`)
+3. **KNN** (`knn/`)
+4. **Decision Tree** (`decision_tree/`)
+5. **Naive Bayes** (`naive_bayes/`)
 
-**Eksik Veri Doldurma:**
-- Ortalama ile doldurma (Mean Imputation)
-- Mod ile doldurma (Mode Imputation)
-- K-Nearest Neighbors (KNN) ile doldurma
-- Çoklu atama (Multiple Imputation)
+### 2️⃣ İleri Algoritmalar (1-2 hafta)
+1. **SVM** (`svm/`)
+2. **Random Forest** (`random_forest/`)
+3. **Gradient Boosting** (`gradient_boosting/`)
 
-**Dengesiz Veri Setlerini Dengeleme:**
-- SMOTE (Synthetic Minority Over-sampling Technique)
+### 3️⃣ Model Değerlendirme (1 hafta)
+1. **Model Evaluation** (`model_evaluation/`)
+   - Classification ve Regression metrikleri
+   - Cross-validation
+   - Learning curves
 
-**Makine Öğrenmesi Algoritmaları:**
-- KNN (K-Nearest Neighbors)
-- Naïve Bayes
-- Decision Tree (Karar Ağacı)
+### 4️⃣ Feature Engineering (1 hafta)
+1. **Feature Engineering** (`feature_engineering/`)
+2. **Preprocessing From Scratch** (`preprocessing_from_scratch/`)
 
-#### Performans Metrikleri
-- **MAE** (Mean Absolute Error)
-- **MSE** (Mean Squared Error)
-- **Pearson Korelasyonu**
-- **Accuracy, Precision, Recall, F1-Score**
+### 5️⃣ Model Optimizasyonu (1 hafta)
+1. **Hyperparameter Tuning** (`hyperparameter_tuning/`)
 
-#### Dosya Yapısı
-- `preprocessing.py` - Veri ön işleme
-- `knn.py` - KNN algoritması
-- `naive_bayes.py` - Naive Bayes algoritması
-- `tree.py` - Decision Tree algoritması
-- `best_result.py` - En iyi sonuçları bulma
-- `missing_data_files/` - Eksik verilerle test edilen veri setleri
-- `completed_data/` - İmputation sonrası tamamlanmış veri setleri
-- `output/`, `output_folder/`, `result/` - Performans sonuçları
+### 6️⃣ Ensemble Methods (1 hafta)
+1. **Ensemble Methods** (`ensemble_methods/`)
 
-## 🚀 Nasıl Başlanır?
+### 7️⃣ Unsupervised Learning (1 hafta)
+1. **Clustering** (`clustering/`)
 
-1. **Algoritmaları öğrenin:**
-   - `decision_tree/heartdisease.ipynb` ile başlayın
-   - `naive_bayes/heartdisease-nb.ipynb` ile devam edin
+### 8️⃣ Gerçek Projeler (2-3 hafta)
+1. **ML Article Project** (`ml_article_project/`)
+2. Kendi projelerinizi geliştirin
 
-2. **From scratch preprocessing:**
-   - `preprocessing_from_scratch/` klasöründeki her teknik için Python dosyalarını inceleyin
-   - Pseudo kod dosyalarını okuyun
+## ✅ Detaylı Kontrol Listesi
 
-3. **Gerçek proje:**
-   - `ml_article_project/` klasöründeki projeyi adım adım takip edin
-   - Farklı imputation yöntemlerini karşılaştırın
-   - Model performanslarını analiz edin
+### Temel Algoritmalar
+- [ ] Linear Regression notebook'u tamamlandı
+- [ ] Logistic Regression notebook'u tamamlandı
+- [ ] KNN notebook'u tamamlandı
+- [ ] Decision Tree notebook'u tamamlandı
+- [ ] Naive Bayes notebook'u tamamlandı
 
-## ✅ Kontrol Listesi
+### İleri Algoritmalar
+- [ ] SVM notebook'u tamamlandı
+- [ ] Random Forest notebook'u tamamlandı
+- [ ] Gradient Boosting notebook'u tamamlandı
 
-- [ ] Decision Tree notebook'u çalıştırıldı ve anlaşıldı
-- [ ] Naive Bayes notebook'u çalıştırıldı ve anlaşıldı
-- [ ] Preprocessing from scratch teknikleri öğrenildi
+### Model Değerlendirme
+- [ ] Classification metrikleri öğrenildi
+- [ ] Regression metrikleri öğrenildi
+- [ ] Confusion matrix yorumlandı
+- [ ] ROC-AUC analizi yapıldı
+- [ ] Cross-validation uygulandı
+- [ ] Learning curves çizildi
+
+### Feature Engineering
+- [ ] Feature selection teknikleri uygulandı
+- [ ] Feature scaling yapıldı
+- [ ] Yeni feature'lar oluşturuldu
+- [ ] Encoding teknikleri öğrenildi
+- [ ] Preprocessing from scratch teknikleri anlaşıldı
+
+### Model Optimizasyonu
+- [ ] Grid Search uygulandı
+- [ ] Random Search uygulandı
+- [ ] Bayesian Optimization öğrenildi
+- [ ] Optuna ile tuning yapıldı
+
+### Ensemble Methods
+- [ ] Voting Classifier kullanıldı
+- [ ] Stacking uygulandı
+- [ ] Blending yapıldı
+
+### Unsupervised Learning
+- [ ] K-Means clustering uygulandı
+- [ ] Hierarchical clustering yapıldı
+- [ ] DBSCAN öğrenildi
+- [ ] Clustering evaluation metrikleri kullanıldı
+
+### Projeler
 - [ ] ML Article projesi tamamlandı
-- [ ] Farklı imputation yöntemlerinin performansları karşılaştırıldı
-- [ ] Model metrikleri yorumlandı
+- [ ] Kendi veri setimle proje yapıldı
+- [ ] Farklı algoritmalar karşılaştırıldı
+- [ ] Model performansları analiz edildi
 
 ## 📊 Proje Önerileri
 
-1. **Kendi Veri Setinizle Proje:**
-   - Kendi veri setinizle eksik veri doldurma tekniklerini uygulayın
-   - Farklı ML algoritmalarını deneyin
-   - Performansları karşılaştırın
+### Başlangıç Seviyesi
+1. **Titanic Dataset** - Binary classification
+2. **House Prices** - Regression
+3. **Iris Dataset** - Multiclass classification
 
-2. **From Scratch Uygulama:**
-   - Kütüphane kullanmadan kendi preprocessing fonksiyonlarınızı yazın
-   - Algoritmaları from scratch implement edin
+### Orta Seviye
+1. **Customer Churn Prediction** - Imbalanced dataset
+2. **Credit Card Fraud Detection** - Anomaly detection
+3. **Sales Forecasting** - Time series regression
+
+### İleri Seviye
+1. **Kaggle Competitions** - Gerçek dünya problemleri
+2. **End-to-End ML Pipeline** - Veri toplama, preprocessing, modeling, deployment
+3. **Multi-class Multi-label Classification**
 
 ## 🎓 İleri Seviye Konular
 
-- Ensemble yöntemleri (Random Forest, Gradient Boosting)
-- Hyperparameter tuning
-- Cross-validation teknikleri
-- Feature engineering
-- Model interpretability
+- Model Interpretability (SHAP, LIME)
+- AutoML
+- Neural Networks (Deep Learning'e geçiş)
+- Time Series Analysis
+- Recommendation Systems
+- Natural Language Processing
 
 ## 🔗 Sonraki Adımlar
 
 Bu seviyeyi tamamladıktan sonra:
-- Daha karmaşık ML projelerine geçebilirsiniz
-- Deep Learning'e başlayabilirsiniz
-- Kaggle yarışmalarına katılabilirsiniz
+- **Seviye 4: Deep Learning** - Neural networks, CNN, RNN
+- **Seviye 5: Advanced ML & Deployment** - Model deployment, MLOps
+- **Kaggle Competitions** - Gerçek dünya problemleri
+- **Portfolio Projects** - Kendi projelerinizi geliştirin
+
+## 📚 Ek Kaynaklar
+
+- [Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)
+- [Machine Learning Mastery](https://machinelearningmastery.com/)
+- [Kaggle Learn](https://www.kaggle.com/learn)
+- [Fast.ai](https://www.fast.ai/)
 
 ---
 
-**Tebrikler!** 🎉 Veri bilimi öğrenme yolunuzu tamamladınız!
-
+**Tebrikler!** 🎉 Makine öğrenmesi yolculuğunuzda önemli bir adım attınız!

@@ -1,0 +1,6 @@
+i,5,kadın,x
+k,5,erkek,x
+i,4,erkek,y
+l,2,kadın,x
+l,2,kadın,z
+m,5,erkek,y

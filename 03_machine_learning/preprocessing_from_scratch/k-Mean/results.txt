@@ -1,0 +1,159 @@
+Küme Merkezleri:
+Küme 0 Merkezi: 3.6, 6.017241379310344, 6.163333333333333, 5.5
+Küme 1 Merkezi: 1.565217391304348, 2.843305619917314, 2.2623188405797103, 2.5625823451910406
+Küme 2 Merkezi: 7.5, 4.591866945315221, 4.122222222222223, 3.3125
+Küme 3 Merkezi: 4.233333333333333, 1.5333333333333334, 1.4244444444444444, 1.4
+
+Atamalar:
+Veri Noktasý 0 -> Küme 0
+Veri Noktasý 1 -> Küme 1
+Veri Noktasý 2 -> Küme 1
+Veri Noktasý 3 -> Küme 0
+Veri Noktasý 4 -> Küme 2
+Veri Noktasý 5 -> Küme 3
+Veri Noktasý 6 -> Küme 3
+Veri Noktasý 7 -> Küme 3
+Veri Noktasý 8 -> Küme 3
+Veri Noktasý 9 -> Küme 0
+Veri Noktasý 10 -> Küme 0
+Veri Noktasý 11 -> Küme 3
+Veri Noktasý 12 -> Küme 1
+Veri Noktasý 13 -> Küme 3
+Veri Noktasý 14 -> Küme 2
+Veri Noktasý 15 -> Küme 3
+Veri Noktasý 16 -> Küme 3
+Veri Noktasý 17 -> Küme 1
+Veri Noktasý 18 -> Küme 3
+Veri Noktasý 19 -> Küme 2
+Veri Noktasý 20 -> Küme 1
+Veri Noktasý 21 -> Küme 2
+Veri Noktasý 22 -> Küme 1
+Veri Noktasý 23 -> Küme 2
+Veri Noktasý 24 -> Küme 1
+Veri Noktasý 25 -> Küme 3
+Veri Noktasý 26 -> Küme 0
+Veri Noktasý 27 -> Küme 2
+Veri Noktasý 28 -> Küme 1
+Veri Noktasý 29 -> Küme 3
+Veri Noktasý 30 -> Küme 0
+Veri Noktasý 31 -> Küme 3
+Veri Noktasý 32 -> Küme 2
+Veri Noktasý 33 -> Küme 2
+Veri Noktasý 34 -> Küme 0
+Veri Noktasý 35 -> Küme 1
+Veri Noktasý 36 -> Küme 3
+Veri Noktasý 37 -> Küme 3
+Veri Noktasý 38 -> Küme 2
+Veri Noktasý 39 -> Küme 0
+Veri Noktasý 40 -> Küme 1
+Veri Noktasý 41 -> Küme 3
+Veri Noktasý 42 -> Küme 0
+Veri Noktasý 43 -> Küme 3
+Veri Noktasý 44 -> Küme 3
+Veri Noktasý 45 -> Küme 3
+Veri Noktasý 46 -> Küme 3
+Veri Noktasý 47 -> Küme 1
+Veri Noktasý 48 -> Küme 1
+Veri Noktasý 49 -> Küme 2
+Veri Noktasý 50 -> Küme 3
+Veri Noktasý 51 -> Küme 1
+Veri Noktasý 52 -> Küme 1
+Veri Noktasý 53 -> Küme 3
+Veri Noktasý 54 -> Küme 3
+Veri Noktasý 55 -> Küme 1
+Veri Noktasý 56 -> Küme 2
+Veri Noktasý 57 -> Küme 3
+Veri Noktasý 58 -> Küme 0
+Veri Noktasý 59 -> Küme 1
+Veri Noktasý 60 -> Küme 1
+Veri Noktasý 61 -> Küme 1
+Veri Noktasý 62 -> Küme 3
+Veri Noktasý 63 -> Küme 1
+Veri Noktasý 64 -> Küme 3
+Veri Noktasý 65 -> Küme 3
+Veri Noktasý 66 -> Küme 3
+Veri Noktasý 67 -> Küme 1
+Veri Noktasý 68 -> Küme 1
+Veri Noktasý 69 -> Küme 3
+Veri Noktasý 70 -> Küme 1
+Veri Noktasý 71 -> Küme 2
+Veri Noktasý 72 -> Küme 3
+Veri Noktasý 73 -> Küme 1
+Veri Noktasý 74 -> Küme 3
+
+Güncellenmiþ Veri:
+6,8,8,6,x
+1,5,2.6333333333333333,5,y
+1,5,3,2,y
+0,3.1724137931034484,8,6,x
+7,2.9393939393939394,7,2.25,y
+4,3,1,0,x
+5,1,2,3,y
+0,0,0,0,x
+9,1,2,1,y
+4,5,2.6333333333333333,7,y
+2,6,5,5,x
+1,1,0,1,y
+3,3.1724137931034484,2,2,x
+1,0,1,0,y
+7,5,2.8333333333333335,8,x
+4,2,6,0,y
+0,0,0,1,x
+1,3,2,2.25,y
+3,2,2,1,x
+7,2.9393939393939394,3,5,y
+3,3,2,4,x
+6,2.9393939393939394,6,1,y
+1,1,2.8333333333333335,1,x
+9,8,7,2.25,y
+2,3,4,5,x
+5,1,0,6,y
+8,8,8,7,x
+7,5,2.6333333333333333,4,y
+1,3.1724137931034484,3,2.9696969696969697,x
+6,1,0,1,y
+0,6,7,8,x
+5,1,1,2,y
+9,3.1724137931034484,3,1,x
+8,7,6,2.25,y
+0,5,5,5,x
+3,4,2.6333333333333333,4,y
+7,3,1,1,x
+4,0,2.6333333333333333,0,y
+9,3.1724137931034484,1,5,x
+2,6,6,0,y
+5,3,2.8333333333333335,3,x
+3,4,1,1,y
+9,8,7,6,x
+4,1,2.6333333333333333,5,y
+0,0,0,1,x
+2,1,1,1,y
+3,4,1,0,x
+1,1,0,2.25,y
+2,5,3,1,x
+7,2.9393939393939394,4,2,y
+8,1,1,1,x
+1,2.9393939393939394,0,3,y
+0,2,2,2.25,y
+4,5,3,0,x
+6,2,2.6333333333333333,1,y
+2,3.1724137931034484,2,2,x
+9,7,6,3,y
+8,0,1,1,x
+5,5,5,5,y
+2,3,2.8333333333333335,0,x
+0,0,2.6333333333333333,3,y
+3,1,4,4,z
+5,2,2,2,x
+1,2.9393939393939394,1,0,y
+6,4,0,1,y
+4,0,2.8333333333333335,4,x
+3,2,1,0,y
+0,1,1,2.9696969696969697,x
+2,5,2.6333333333333333,3,y
+7,0,1,5,x
+1,3,2,2.25,y
+5,5,1,4,x
+6,1,3,1,y
+0,2,2,2,x
+4,3,1,1,y
